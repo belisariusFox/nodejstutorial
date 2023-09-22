@@ -6,3 +6,11 @@ block content
   p luca volpe 
   p.ciao emissario
   a(href=`${link}`) #{number}
+  br    
+  a(href='/login-studente') ACCEDI STUDENTE
+  ul  
+    each item in array 
+      if item == 'elemento 3' 
+        li #{item}
+      else 
+        li Non sono il 3  

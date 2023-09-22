@@ -1,0 +1,22 @@
+extends layout
+
+block content
+ h1 Crea il tuo account studente 
+   form(method="post")
+     label
+      p Username
+      input(type="text", placeholder="username")
+      br
+     label 
+      p Email
+      input(type="text", placeholder="email")
+      br
+     label
+      p Password
+      input(type="text", placeholder="password")
+      br
+     label
+      p Conferma password
+      input(type="text", placeholder="conferma password")
+      br
+     button(type="submit",value="Registrati")
